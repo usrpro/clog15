@@ -6,6 +6,6 @@ For instance in http.HanderFunc, middleware or gRPC interceptors.
 It allows you to define logging context and attach the configured logger to a context
 passed down the executions chain.
 
-## Licsense
+## License
 Copyright (c) 2020, Mohlmann Solutions SRL. All rights reserved.
-Use of this source code is governed by a BSD 3 Clause License that can be found in the LICENSE file.
+Use of this source code is governed by a BSD 3 Clause License that can be found in the [LICENSE](LICENSE) file.
