@@ -4,7 +4,7 @@
 
 /*
 Package clog15 provides utilities to embed and extract a log15.Logger to a context.
-This might be helpfull to preserve logger context while being restricted by funtction signatures.
+This might be helpful to preserve logger context while being restricted by function signatures.
 For instance in http.HanderFunc, middleware or gRPC interceptors.
 It allows you to define logging context and attach the configured logger to a context
 passed down the executions chain.

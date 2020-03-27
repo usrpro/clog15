@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/usrpro/clog15.svg?branch=master)](https://travis-ci.org/usrpro/clog15)
 [![codecov](https://codecov.io/gh/usrpro/clog15/branch/master/graph/badge.svg)](https://codecov.io/gh/usrpro/clog15)
+[![Go Report Card](https://goreportcard.com/badge/github.com/usrpro/clog15)](https://goreportcard.com/report/github.com/usrpro/clog15)
+[![GoDoc](https://godoc.org/github.com/usrpro/clog15?status.svg)](https://godoc.org/github.com/usrpro/clog15)
 
 # Clog15
 
