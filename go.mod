@@ -1,4 +1,4 @@
-module github.com/usrpro/clog
+module github.com/usrpro/clog15
 
 go 1.12
 
