@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/usrpro/clog15.svg?branch=master)](https://travis-ci.org/usrpro/clog15)
+[![codecov](https://codecov.io/gh/usrpro/clog15/branch/master/graph/badge.svg)](https://codecov.io/gh/usrpro/clog15)
+
 # Clog15
 
 Package clog15 provides utilities to embed and extract a log15.Logger to a context.
