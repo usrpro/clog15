@@ -90,6 +90,13 @@ func TestGetLogger(t *testing.T) {
 	}
 }
 
+func TestAddArgs(t *testing.T) {
+	ctx := AddArgs(context.Background(), "foo", "bar")
+	if _, ok := ctx.Value(CtxLogger).(log.Logger); !ok {
+		t.Error("AddArgs: logger not in context")
+	}
+}
+
 // testHandler implements log.Handler
 type testHandler struct {
 	bytes.Buffer

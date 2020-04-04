@@ -51,6 +51,13 @@ func GetLogger(ctx context.Context) log.Logger {
 	return l
 }
 
+// AddArgs to the logger in the returned context.
+// If there is no logger set to context,
+// a new root logger is returned with args.
+func AddArgs(ctx context.Context, args ...interface{}) context.Context {
+	return SetLogger(ctx, GetLogger(ctx), args...)
+}
+
 // Debug is a wrapper for GetLogger().Debug()
 func Debug(ctx context.Context, msg string, args ...interface{}) {
 	GetLogger(ctx).Debug(msg, args...)
